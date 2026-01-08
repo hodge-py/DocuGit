@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocuGit</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <header>
+        <h1>DocuGit</h1>
+        <p>Documentation management made simple</p>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome</h2>
+            <p>Get started by exploring your documentation projects.</p>
+            <div>{{message}}</div>
+        </section>
+    </main>
+</body>
+</html>
